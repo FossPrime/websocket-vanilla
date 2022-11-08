@@ -1,7 +1,6 @@
-run = ["bash", "main.sh"]
+run = ["npm", "run", "dev"]
 
-entrypoint = "main.sh"
-
+entrypoint = "src/main.ts"
 
 [nix]
 channel = "stable-22_05"

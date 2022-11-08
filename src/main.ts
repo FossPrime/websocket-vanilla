@@ -7,6 +7,7 @@ const SOCKET_URI = location.origin
 
 var socket = io(SOCKET_URI, {
   transports: ['websocket'],
+  upgrade: false,
   port: 3030
 })
 
